@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BlockieSMP Webpage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+.topnav #myLinks {
+  display: none;
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="index.html" class="active"><strong>Home</strong></a>
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <hr>
+    <a href="rule.html">Rules</a>
+    <hr>
+    <a href="social.html">Social Media</a>
+    <hr>
+    <a href="picture.html">Pictures</a>
+    <hr>
+    <a href="http://jomgamingph.c1.biz/">JomGamingPH's Webpage</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+<center>
+<h2>Information</h2>
+<p>This website contains rules and others.</p>
+</center>
+<hr>
+<center>
+<h2>My Server</h2>
+</center>
+<font color="#206040"><font size="4">Address:</font></font> <font size="4">BlockieSMP.aternos.me</font><br>
+<font color="#206040"><font size="4">Port:</font></font> <font size="4">52742</font><br>
+<br>
+<font size="3"><font color="#206040">Note</font>: The address and port temporary use because I don't found server hosting for free.</font><br>
+<hr><marquee><font size="4"><font color="#339966">this is beta version</font></font></marquee><hr>
+</body>
+</html>
